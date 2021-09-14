@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+
+</head>
+
+
+<body style="background-color:black;">
+<h1 style="text-align:center;"><font color="#ffff00" size="50">Malicious URL Detection App</font></h1>
+<h3 style="text-align:right;"><font color="#66ff66">Project by: Om Chaithanya V</font></h3>
+<h3 style="text-align:right;"><font color="Tomato"><a href="https://github.com/omchaithanyav">GitHub</a> | <a href="https://www.linkedin.com/in/omchaithanya/">LinkedIn</a> | <a href="https://vomchaithanya.medium.com/">Medium</a></font></h3>
+
+<form action="{{ url_for('prediction')}}" method='post'>
+    <label for="url" color = "#ffff00" style=font-size:32px;"><font color="white">Enter the url:</font></label><br>
+  <input type="text" id="url" name="url" placeholder="Enter the url" required="required"><br>
+  <input type="submit" value="PREDICT"  style=font-size:22px>
+</form>
+
+</body>
+</html>
