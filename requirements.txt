@@ -5,7 +5,7 @@ Jinja2
 keras
 gunicorn
 validators
-
+scikit-learn
 Werkzeug
 itsdangerous
 MarkupSafe
