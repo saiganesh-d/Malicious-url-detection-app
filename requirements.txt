@@ -14,5 +14,5 @@ klib
 Werkzeug
 itsdangerous
 MarkupSafe
-tensorflow2.0
+tensorflow2.0.0a0
 
