@@ -22,7 +22,7 @@ def prediction():
     valid = validators.url(url)
     if(valid==True):
         tokens = Tokenizer.texts_to_sequences([url])
-        tokens = pad_sequences(tokens, maxlen=100)
+        tokens = sequence.pad_sequences(tokens, maxlen=100)
         pred = model.predict(np.array(tokens))
         classes = ['Safe url 😇', 'Malicious url 💀']
         result = classes[pred[0]]
