@@ -15,4 +15,4 @@ Werkzeug
 itsdangerous
 MarkupSafe
 tensorflow-cpu
-
+xgboost
