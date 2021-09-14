@@ -3,6 +3,7 @@ gunicorn
 Jinja2
 numpy
 scipy
+keras
 validators
 scikit-learn
 matplotlib
